@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('common.css');
+
+.header{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:43px 0;
+    z-index: 999;
+
+    div{
+        width:95%;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        
+        nav{
+            display:flex;
+            align-items: center;
+            a{
+                padding:0 30px; font-weight: bold; font-size:1.1em; color:#fff;
+                img{width:100%;};
+            }
+            a:nth-of-type(5){padding:0;}
+        }
+    }
+
+}
+aside{
+    position: fixed;
+    top:80%; right:4%;
+    z-index:999;
+    .sns{ 
+        li a img{
+            width:100%;
+        }   
+    }
+}
+
+.main_01{
+    width:100%;
+    position:relative;
+    img{height:100vh;}
+    h2{
+        color:#fff;
+        position:absolute;
+        left:50%; top:50%;
+        transform:translate(-50%, -50%);
+        font-size:9em;
+    }
+}
+
+.main_02{
+    position:relative;
+    background:#000;
+    width:100%;
+    height:100vh;
+    
+    h2{
+        font-size:9em;
+        position:absolute;
+        left:50%; top:50%;
+        transform:translate(-50%, -50%);
+        color:#ddd;
+    }
+}
+
+.main_03{
+    height:100vh;
+    // padding-top:100vh;
+    width:90%;
+    position:relative;
+
+    .txt{
+        position:absolute;
+        top:50%;
+    }
+    p:first-child{
+        font-size:5.5em;
+        font-weight:bold;
+        line-height:1.2;
+        letter-spacing: 5px;
+    }
+    p:last-child{
+        font-size:2em;
+        margin:50px 0 50px 130px;
+
+    }
+}
+.main_04{
+    height:100vh;
+    position:relative;
+
+    .txt{
+        position:absolute;
+        top:50%;
+    }
+
+    p:first-child{
+        font-size:4.5em;
+        font-weight:bold;
+        line-height:1.2;
+        letter-spacing: 5px;
+    }
+    p:last-child{
+        font-size:1.5em;
+        margin:50px 0 50px 130px;
+        white-space: pre-line;
+
+    }
+}
+.main_05{
+    height:100vh;
+    position:relative;
+
+    .txt{
+        position:absolute;
+        top:50%;
+    }
+
+    p:first-child{
+        font-size:4.5em;
+        font-weight:bold;
+        line-height:1.2;
+        letter-spacing: 5px;
+    }
+    p:last-child{
+        font-size:1.5em;
+        margin:50px 0 50px 130px;
+        white-space: pre-line;
+
+    }
+}
+
+.main_06{
+    position:relative;
+    img{
+        position:absolute;
+        left:0; top:0;
+    }
+}
+
+footer{
+    padding: 60px 4.17% 70px;
+    p{font-size:1em; letter-spacing:0.25px;}
+} 
