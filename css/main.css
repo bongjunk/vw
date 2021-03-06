@@ -21,12 +21,11 @@
           align-items: center;
 }
 
-.header div a img {
-  width: 100%;
-  vertical-align: middle;
+.header div .logo img {
+  width: 100px;
 }
 
-.header div nav {
+.header div .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,19 +34,20 @@
           align-items: center;
 }
 
-.header div nav a {
-  color: #000;
+.header div .menu a {
   padding: 0 30px;
   font-weight: bold;
   font-size: 1.1em;
+  color: #000;
 }
 
-.header div nav a img {
-  width: 100%;
+.header div .menu a img {
+  width: 70px;
   vertical-align: middle;
+  display: inline-block;
 }
 
-.header div nav a:nth-of-type(5) {
+.header div .menu a:nth-of-type(5) {
   padding: 0;
 }
 
@@ -139,7 +139,7 @@ aside .sns li a img {
 }
 
 .play .cell a {
-  padding: 0 10px;
+  padding: 0 12px;
 }
 
 .play .cell a span {
@@ -154,8 +154,8 @@ aside .sns li a img {
 }
 
 .play .pbtn a img {
-  width: 100%;
-  padding: 0 10px;
+  width: 15px;
+  margin-left: 15px;
 }
 
 .main_01 {
@@ -172,8 +172,10 @@ aside .sns li a img {
   position: absolute;
   left: 0;
   top: 0;
-  width: auto;
+  width: 100%;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main_01 .imgList img:nth-of-type(1) {
@@ -244,7 +246,10 @@ aside .sns li a img {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main_02 .imgList img:nth-of-type(1) {
@@ -332,7 +337,10 @@ aside .sns li a img {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main_03 .imgList img:nth-of-type(1) {
@@ -384,7 +392,10 @@ aside .sns li a img {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main_04 .imgList img:nth-of-type(1) {
@@ -453,7 +464,10 @@ aside .sns li a img {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main_05 .imgList img:nth-of-type(1) {
@@ -530,7 +544,10 @@ aside .sns li a img {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main_06 .imgList img:nth-of-type(1) {
@@ -603,7 +620,10 @@ aside .sns li a img {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main_07 .imgList img:nth-of-type(1) {
@@ -691,11 +711,77 @@ aside .sns li a img {
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
   }
-  .header div a img {
-    width: 50%;
+  .header div .logo img {
+    width: 70px;
   }
-  .header div nav a {
-    font-size: 0.8em;
+  .header div .menu a {
+    padding: 0 20px;
+    font-size: 0.9em;
+  }
+  .header div .menu a img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  aside {
+    padding: 0 20px;
+  }
+  aside .scroll_b {
+    font-size: 0.6em;
+  }
+  aside .scroll_b::after {
+    position: absolute;
+    top: 5px;
+    left: -95px;
+  }
+  aside .sns li a img {
+    width: 15px;
+  }
+  .header div .logo img {
+    width: 50px;
+  }
+  .header div .menu a {
+    padding: 0 8px;
+    font-size: 0.5em;
+  }
+  .header div .menu a img {
+    width: 35px;
+  }
+  .play .cell a {
+    padding: 0 10px;
+  }
+  .play .cell a span {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+  }
+  .play .pbtn {
+    margin-right: 50px;
+  }
+  .play .pbtn a img {
+    width: 10px;
+    vertical-align: middle;
+  }
+  .main_02 .txt01 p:nth-of-type(1) {
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 100px;
+  }
+  .main_02 .txt01 p:nth-of-type(2)::after {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .main_03 .txt01 p:nth-of-type(1) {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 150px;
+  }
+  .main_03 .txt01 p:nth-of-type(2) {
+    font-size: 0.7em;
+    margin-left: 70px;
+    padding: 0;
+    text-align: left;
   }
 }
 /*# sourceMappingURL=main.css.map */
