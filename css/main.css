@@ -178,22 +178,6 @@ aside .sns li a img {
      object-fit: cover;
 }
 
-.main_01 .imgList img:nth-of-type(1) {
-  z-index: 10;
-}
-
-.main_01 .imgList img:nth-of-type(2) {
-  z-index: 9;
-}
-
-.main_01 .imgList img:nth-of-type(3) {
-  z-index: 8;
-}
-
-.main_01 .imgList img:nth-of-type(4) {
-  z-index: 7;
-}
-
 .main_01 .txt01 {
   position: absolute;
   left: 10%;
