@@ -164,8 +164,8 @@ aside .sns li a img {
   height: 41px;
   line-height: 40px;
   text-align: center;
-  -webkit-transform: translateY(40%);
-          transform: translateY(40%);
+  -webkit-transform: translateY(35%);
+          transform: translateY(35%);
 }
 
 .main_02 .section .table p:nth-of-type(4):hover a {
