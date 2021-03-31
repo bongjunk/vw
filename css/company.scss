@@ -41,7 +41,7 @@ aside{
 .main_01{
     width:100%;
     position:relative;
-    img{height:100vh;}
+    img{height:100vh; object-fit: cover;}
     h2{
         color:#fff;
         position:absolute;
@@ -63,6 +63,7 @@ aside{
         left:50%; top:50%;
         transform:translate(-50%, -50%);
         color:#ddd;
+        background-attachment:scroll;
     }
 }
 

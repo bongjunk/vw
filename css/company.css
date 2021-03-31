@@ -63,6 +63,8 @@ aside .sns li a img {
 
 .main_01 img {
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main_01 h2 {
@@ -90,6 +92,7 @@ aside .sns li a img {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #ddd;
+  background-attachment: scroll;
 }
 
 .main_03 {
