@@ -39,7 +39,7 @@ aside{
 }
 
 .main_01{
-    width:100%;
+    width:100%; height:100%;
     position:relative;
     img{height:100vh; object-fit: cover;}
     h2{
@@ -95,7 +95,7 @@ aside{
 
     .txt{
         position:absolute;
-        top:50%;
+        top:30%; left:10%;
     }
 
     p:first-child{
@@ -117,7 +117,30 @@ aside{
 
     .txt{
         position:absolute;
-        top:50%;
+        top:30%; left:10%;
+    }
+
+    p:first-child{
+        font-size:4.5em;
+        font-weight:bold;
+        line-height:1.2;
+        letter-spacing: 5px;
+    }
+    p:last-child{
+        font-size:1.5em;
+        margin:50px 0 50px 130px;
+        white-space: pre-line;
+
+    }
+}
+
+.main_06{
+    height:100vh;
+    position:relative;
+
+    .txt{
+        position:absolute;
+        top:30%; left:10%;
     }
 
     p:first-child{
@@ -135,7 +158,7 @@ aside{
 }
 
 body{position:relative;}
-.main_06{
+.main_07{
     img{
         position:fixed;
         right:0; top:0;
@@ -144,6 +167,6 @@ body{position:relative;}
 }
 
 footer{
-    padding: 60px 4.17% 70px;
+    padding: 100px 4.17% 70px;
     p{font-size:1em; letter-spacing:0.25px;}
-} 
+}
