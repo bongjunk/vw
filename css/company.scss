@@ -75,7 +75,7 @@ aside{
 
     .txt{
         position:absolute;
-        top:50%;
+        top:30%; left:10%;
     }
     p:first-child{
         font-size:5.5em;
@@ -134,11 +134,13 @@ aside{
     }
 }
 
+body{position:relative;}
 .main_06{
-    position:relative;
     img{
-        position:absolute;
-        left:0; top:0;
+        position:fixed;
+        right:0; top:0;
+        width:50%;
+        
     }
 }
 
