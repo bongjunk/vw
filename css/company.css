@@ -196,10 +196,14 @@ body {
   position: relative;
 }
 
+.main_07 {
+  display: none;
+}
+
 .main_07 img {
   position: fixed;
-  right: 0;
-  top: 0;
+  right: 5%;
+  top: 5%;
   width: 50%;
 }
 

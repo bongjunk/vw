@@ -47,11 +47,8 @@ $(function(){
         $(window).scroll(function() {
             let scrollT = $(this).scrollTop();
 
-            if (scrollT == 0){
-                $('.main_07 img').hide();
-            }
-
             if (scrollT > 1600 && scrollT < 2800) {
+                $('.main_07').show();
                 $('.main_07 .img01').fadeIn();
             } else {
                 $('.main_07 .img01').fadeOut();
