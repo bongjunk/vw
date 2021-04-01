@@ -45,22 +45,24 @@ $(function(){
 
     function scrollImg(){
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 1700 && $(this).scrollTop() < 2500) {
-                $('.main_06 .img01').fadeIn();
+            let scrollT = $(this).scrollTop();
+
+            if (scrollT > 1600 && scrollT < 2800) {
+                $('.main_07 .img01').fadeIn();
             } else {
-                $('.main_06 .img01').fadeOut();
+                $('.main_07 .img01').fadeOut();
             }
             
-            if ($(this).scrollTop() > 2500 && $(this).scrollTop() < 3300) {
-                $('.main_06 .img02').fadeIn();
+            if (scrollT > 2800 && scrollT < 3900) {
+                $('.main_07 .img02').fadeIn();
             } else {
-                $('.main_06 .img02').fadeOut();
+                $('.main_07 .img02').fadeOut();
             }
 
-            if ($(this).scrollTop() > 3300) {
-                $('.main_06 .img03').fadeIn();
+            if (scrollT > 3900 && scrollT < 4800) {
+                $('.main_07 .img03').fadeIn();
             } else {
-                $('.main_06 .img03').fadeOut();
+                $('.main_07 .img03').fadeOut();
             }
         });
     
