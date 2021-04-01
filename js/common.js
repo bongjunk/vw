@@ -42,11 +42,21 @@ $(function(){
 
     function scrollImg(){
         $(window).scroll(function() {
-          if ($(this).scrollTop() > 1700) {
-              $('.main_06 img').fadeIn();
-          } else {
-              $('.main_06 img').fadeOut();
-          }
+            if ($(this).scrollTop() > 1700) {
+                $('.main_06 .img01').fadeIn();
+            } else {
+                $('.main_06 .img01').fadeOut();
+            }
+            if ($(this).scrollTop() > 2500) {
+                $('.main_06 .img02').fadeIn();
+            } else {
+                $('.main_06 .img02').fadeOut();
+            }
+            if ($(this).scrollTop() > 3300) {
+                $('.main_06 .img03').fadeIn();
+            } else {
+                $('.main_06 .img03').fadeOut();
+            }
         });
     
     }
