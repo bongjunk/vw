@@ -5,8 +5,8 @@
 /* font-family: 'Noto Sans KR', sans-serif; */
 
 @font-face{
-    font-family: "gotham";
-    src:url('/font/Gotham-Font/Gotham-Black.otf');
+    font-family: 'gotham';
+    src:url('../font/Gotham-Font/Gotham-Black.otf');
 }
 
 /* @font-face{
