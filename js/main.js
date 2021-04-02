@@ -1,31 +1,39 @@
 $(function(){
-// 메인페이지 fade in, fade out
-    var fadeN = 0;
 
-    $('.main_01 .imgList img').not(':first').hide();
-    setInterval(function(){
-        $('.main_01 .imgList img').eq(fadeN).fadeOut(5000);
-        fadeN++;
-        if(fadeN == 4){fadeN = 0}
-        $('.main_01 .imgList img').eq(fadeN).fadeIn(5000);
+    function mainImg(){
+      // 메인페이지 fade in, fade out
+      var fadeN = 0;
+      $('.main_01 .imgList img').not(':first').hide();
 
+      $('.pbtn').on('click', function(){
+        $('.main_01 .imgList img').not(':first').hide();
+        
+        $('.pbtn img').attr('src', './imgs/main/btn_pause_off.png');
 
+        setInterval(function(){
+            $('.main_01 .imgList img').eq(fadeN).fadeOut(5000);
+            fadeN++;
+            if(fadeN == 4){fadeN = 0}
+            $('.main_01 .imgList img').eq(fadeN).fadeIn(5000);
 
-        var imgSrc = $('.main_01 .imgList img').eq(fadeN).attr('src');
-        var imgB = $('.play .cell a').index();
+            var imgSrc = $('.main_01 .imgList img').eq(fadeN).attr('src');
+            var imgB = $('.play .cell a').index();
 
-        console.log(imgSrc);
-        console.log(imgB);
+            console.log(imgSrc);
+            console.log(imgB);
 
-        $('.play .cell a').on('click', function(){
-            
-            
-            $('.main_01 .imgList img').attr('src',imgSrc)
-    
-            // $('.main_01 .imgList img').attr('fadeN',imgSrc)
-        });
+            $('.play .cell a').on('click', function(){
+                
+                
+                $('.main_01 .imgList img').attr('src',imgSrc)
+        
+                // $('.main_01 .imgList img').attr('fadeN',imgSrc)
+            });
 
-    },5000);
+        },5000);
+      });
+    }
+    mainImg();
     
 
 
