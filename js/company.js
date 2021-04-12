@@ -28,7 +28,6 @@ $(function(){
 
     function headColor(){
         var pageOffsetTop = $('.main_03').offset().top;
-        console.log(pageOffsetTop);
 
         $(window).resize(function(){ //반응형을 대비하여 리사이즈시 top값을 다시 계산
             pageOffsetTop =  $('.main_03').offset().top;
