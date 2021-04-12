@@ -90,7 +90,6 @@ aside{
 .main_01{
     width:100%; height:100vh;
     position:relative;
-    
     // .imgList{
     //     position:relative;
     //     img{
@@ -518,6 +517,7 @@ button{outline-style:none;}
 
 @media (max-width:1350px){
     .main_01, .main_02, .main_03, .main_04, .main_05, .main_06{
+        overflow: hidden;
         .txt01{
             p:nth-of-type(1){font-size:5em; font-weight:bold;}
             p:nth-of-type(2){font-size:1em;}
@@ -534,6 +534,7 @@ button{outline-style:none;}
 }
 @media (max-width:920px){
     .main_01, .main_02, .main_03, .main_04, .main_05, .main_06{
+        overflow: hidden;
         .txt01{
             p:nth-of-type(1){font-size:3em; font-weight:bold;}
             p:nth-of-type(2){font-size:0.8em;}
@@ -564,7 +565,6 @@ button{outline-style:none;}
 
 @media(max-width:480px){
     .header{
-        position: sticky;
         div{
             .logo{
                 img{width:50px;}
@@ -597,6 +597,7 @@ button{outline-style:none;}
     }
 
     .main_01, .main_02, .main_03, .main_04, .main_05, .main_06{
+        overflow: hidden;
         .txt01{
             left:10%; bottom:25%;
 

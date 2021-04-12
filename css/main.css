@@ -641,6 +641,9 @@ button {
 }
 
 @media (max-width: 1350px) {
+  .main_01, .main_02, .main_03, .main_04, .main_05, .main_06 {
+    overflow: hidden;
+  }
   .main_01 .txt01 p:nth-of-type(1), .main_02 .txt01 p:nth-of-type(1), .main_03 .txt01 p:nth-of-type(1), .main_04 .txt01 p:nth-of-type(1), .main_05 .txt01 p:nth-of-type(1), .main_06 .txt01 p:nth-of-type(1) {
     font-size: 5em;
     font-weight: bold;
@@ -658,6 +661,9 @@ button {
 }
 
 @media (max-width: 920px) {
+  .main_01, .main_02, .main_03, .main_04, .main_05, .main_06 {
+    overflow: hidden;
+  }
   .main_01 .txt01 p:nth-of-type(1), .main_02 .txt01 p:nth-of-type(1), .main_03 .txt01 p:nth-of-type(1), .main_04 .txt01 p:nth-of-type(1), .main_05 .txt01 p:nth-of-type(1), .main_06 .txt01 p:nth-of-type(1) {
     font-size: 3em;
     font-weight: bold;
@@ -682,10 +688,6 @@ button {
 }
 
 @media (max-width: 480px) {
-  .header {
-    position: -webkit-sticky;
-    position: sticky;
-  }
   .header div .logo img {
     width: 50px;
   }
@@ -709,6 +711,9 @@ button {
   }
   aside .sns li a img {
     width: 15px;
+  }
+  .main_01, .main_02, .main_03, .main_04, .main_05, .main_06 {
+    overflow: hidden;
   }
   .main_01 .txt01, .main_02 .txt01, .main_03 .txt01, .main_04 .txt01, .main_05 .txt01, .main_06 .txt01 {
     left: 10%;
